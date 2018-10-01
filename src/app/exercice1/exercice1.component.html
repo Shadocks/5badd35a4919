@@ -1,0 +1,29 @@
+<div>
+    <h2>Exercice 1</h2>
+    <!-- Property liaison -->
+    <div class="liaison">
+        <label for="lp">
+            Liaison de propriété :
+            <input id="lp" name="lp" [type]="text" />
+        </label>
+    </div>
+
+    <!-- Event link -->
+    <p>Liaison d'événement :</p>
+    <div class="liaison"
+         style="width: 100px;height: 100px;"
+         [style.backgroundColor]="color"
+         (click)="squareClick('green')"
+         (mouseleave)="squareClick('red')"
+    ></div>
+
+    <!-- Two-way data binding -->
+    <div class="liaison">
+        <label for="twdb">
+            Two-way data binding :
+            <input id="twdb" name="twdb" type="text" [(ngModel)]="content" />
+        </label>
+        <p>{{ content }}</p>
+    </div>
+</div>
+<hr>
