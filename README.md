@@ -24,7 +24,7 @@ Puis lancer le serveur de développement avec :
 * [x] Ajouter ce composant dans le composant "app".
 * [x] Dans le template de ce composant, mettre deux paragraphes avec comme contenu 'p1' et 'p2'      
 * [x] Ajouter dans le composant un attribut 'statut', de type boolean, initialisé à TRUE.
-* x] Ajouter dans le composant un bouton.
+* [x] Ajouter dans le composant un bouton.
 * [x] Un clic sur le bouton doit inverser la valeur de l'attribut 'statut'.
 * [x] Si statut est à TRUE, le paragraphe contenant 'p1' doit être affiché, sinon c'est le paragraphe p2 quoi l'être.
 * [x] Créer, dans le répertoire app, un composant avec le nom : "exercice4".
